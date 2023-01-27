@@ -198,7 +198,7 @@ specgram(music, fs);
 
 % soundsc 를 쓰므로 굳이 amplituides nomarlizing 생략해도 된다.
 soundsc(music,fs);
-audiowrite('202021017_문재현_DreamyPatissiel.wav',music/max(abs(music)),fs)%오디오 파일 저장
+audiowrite('저장할 파일 이름.wav',music/max(abs(music)),fs)%오디오 파일 저장
 
 
 
