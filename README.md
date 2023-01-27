@@ -41,7 +41,7 @@ for h=1:length(harmonics)
   s = s + s1;
 """
 
-##### 음박 코드
+##### 음 코드
 """
 
 % dreamypatissel
