@@ -20,7 +20,7 @@ on matlab 2021a version
 
 ##### Tone generation
 
-
+```
     %% Tone generation
     voice = [];  
     for k=1:length(pitch)
@@ -40,10 +40,10 @@ on matlab 2021a version
       w  = (2*pi/fs)*(pitch(k)); % normalized radian frequency
       s1 = (A*harmonics(h)) * sin(w*n + phi);   % tone
       s = s + s1;
-
+```
 
 ##### 음 코드
-
+```
     % dreamypatissel
 
     music=[]; %new array to store samples in
@@ -91,4 +91,4 @@ on matlab 2021a version
       otherwise 
             
     end %switch
- 
+```
